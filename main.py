@@ -110,7 +110,7 @@ async def check_ban_command(ctx):
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
                 f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
                 f"**• {'Region' if lang == 'en' else 'Région'} :** `{region}`"
-                f"**• {'Join Discord' if lang == https://discord.gg/xtjxtM3upQ"
+                f"**• {'Join Discord' if lang == 'en' else 'Région'} :** `{https://discord.gg/xtjxtM3upQ}"
             )
             # embed.set_image(url="https://i.ibb.co/wFxTy8TZ/banned.gif")
             file = discord.File("assets/banned.gif", filename="banned.gif")
@@ -123,7 +123,7 @@ async def check_ban_command(ctx):
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
                 f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
                 f"**• {'Region' if lang == 'en' else 'Région'} :** `{region}`"
-                f"**• {'Join Discord' if lang == https://discord.gg/xtjxtM3upQ"       
+                f"**• {'Join Discord' == https://discord.gg/xtjxtM3upQ"       
             )
             # embed.set_image(url="https://i.ibb.co/Kx1RYVKZ/notbanned.gif")
             file = discord.File("assets/notbanned.gif", filename="notbanned.gif")
