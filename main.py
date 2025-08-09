@@ -64,8 +64,8 @@ async def check_ban_command(ctx):
 
     if not user_id.isdigit():
         message = {
-            "en": f"{ctx.author.mention} ❌ **Invalid UID!**\n➡️ Please use: `!ID 123456789`",
-            "fr": f"{ctx.author.mention} ❌ **UID invalide !**\n➡️ Veuillez fournir un UID valide sous la forme : `!ID 123456789`"
+            "en": f"{ctx.author.mention} ❌ **Invalid UID!**\n➡️ Please use: `!id 123456789`",
+            "fr": f"{ctx.author.mention} ❌ **UID invalide !**\n➡️ Veuillez fournir un UID valide sous la forme : `!id 123456789`"
         }
         await ctx.send(message[lang])
         return
@@ -110,7 +110,7 @@ async def check_ban_command(ctx):
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
                 f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
                 f"**• {'Region' if lang == 'en' else 'Région'} :** `{region}`"
-                f"**• {'Join Discord' if lang == 'en' else 'Région'} :** `{https://discord.gg/xtjxtM3upQ}"
+                f"**• {'Join Discord :** `{https://discord.gg/xtjxtM3upQ}"
             )
             # embed.set_image(url="https://i.ibb.co/wFxTy8TZ/banned.gif")
             file = discord.File("assets/banned.gif", filename="banned.gif")
