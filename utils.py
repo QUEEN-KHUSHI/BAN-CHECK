@@ -26,7 +26,6 @@ async def check_ban(uid: str) -> dict | None:
                             "nickname": data.get("nickname", ""),
                             "period": data.get("period", 0),
                             "region": data.get('region', 0)
-                            "JOIN DC": https://discord.gg/xtjxtM3upQ
                         }
                 
                 # If status is not 200 or data is missing, return None
